@@ -1,12 +1,70 @@
-# React + Vite
+# 🚀 Portfolio 3D - Taha Aubouhan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Portfolio interactif 3D pour ingénieur systèmes embarqués
 
-Currently, two official plugins are available:
+## 📦 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+# Cloner le projet
+git clone https://github.com/username/portfolio-3d.git
+cd portfolio-3d
 
-## Expanding the ESLint configuration
+# Installer les dépendances
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Lancer en développement
+npm run dev
+```
+
+## 🛠️ Technologies
+
+- **React 18** + Vite
+- **Three.js** pour la 3D
+- **Framer Motion** pour les animations
+- **TailwindCSS** pour le style
+
+## 📋 Dépendances
+
+```json
+{
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0", 
+  "three": "^0.158.0",
+  "framer-motion": "^10.16.0",
+  "tailwindcss": "^3.3.6"
+}
+```
+
+## 🎯 Fonctionnalités
+
+- ✅ Navigation 3D interactive
+- ✅ Particules animées
+- ✅ 6 sections : Home, About, Skills, Experience, Projects, Contact
+- ✅ Design cyberpunk responsive
+- ✅ Projets techniques détaillés
+
+## 🚀 Scripts
+
+```bash
+npm run dev      # Développement
+npm run build    # Build production
+npm run preview  # Aperçu build
+```
+
+## 📝 Configuration TailwindCSS
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+## 🎮 Utilisation
+
+1. Cliquez sur les objets 3D pour naviguer
+2. Utilisez la barre de navigation en bas
+3. Explorez les projets et compétences
+4. Contactez via le formulaire
+
+---
+
+**Fait avec ❤️ par Taha Aubouhan**
